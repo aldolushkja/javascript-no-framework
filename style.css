@@ -1,5 +1,7 @@
 * {
     --color-one-blu: lightblue;
+    --color-one-yellow: #FFC725;
+    --animation-01: 3s infinite alternate slidein;
 }
 
 body {
@@ -28,12 +30,12 @@ body {
 
 header {
     grid-area: header;
-    background: lightblue;
+    background: var(--color-one-yellow, --color-one-blu);
 }
 
 footer {
     grid-area: footer;
-    background: var(--color-one-blu, green);
+    background: var(--color-one-yellow, --color-one-blu);
 }
 
 article {
@@ -43,5 +45,5 @@ article {
 
 nav {
     grid-area: nav;
-    background: var(--color-one-blu, red);
+    background: red;
 }
